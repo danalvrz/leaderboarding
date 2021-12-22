@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import _ from 'lodash';
 import './style.css';
 import { displayBoard } from './board.js';
@@ -12,5 +13,3 @@ const wrapper = document.getElementById('wrapper');
 wrapper.classList.add('d-flex');
 wrapper.appendChild(displayBoard());
 wrapper.appendChild(addScoreBox());
-
-displayBoard2();

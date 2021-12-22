@@ -7,11 +7,11 @@ module.exports = {
     static: './dist',
   },
   plugins: [
-        new HtmlWebpackPlugin({
-          title: 'Webpack Output',
-          template: './src/index.html'
-        }),
-      ],
+    new HtmlWebpackPlugin({
+      title: 'Webpack Output',
+      template: './src/index.html',
+    }),
+  ],
   output: {
     filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
@@ -19,15 +19,15 @@ module.exports = {
   },
   mode: 'development',
   module: {
-        rules: [
-          {
-            test: /\.css$/i,
-            use: ['style-loader', 'css-loader'],
-          },
-          {
-            test: /\.(png|svg|jpg|jpeg|gif)$/i,
-            type: 'asset/resource',
-          },
-        ],
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
       },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
+    ],
+  },
 };

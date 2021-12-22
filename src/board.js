@@ -20,7 +20,7 @@ const displayBoard = () => {
     'mt-4',
     'w-75',
     'border',
-    'border-secondary'
+    'border-secondary',
   );
   const tableBody = document.createElement('tbody');
   tableBody.innerHTML = `
@@ -54,4 +54,5 @@ const displayBoard = () => {
   return boardContainer;
 };
 
+// eslint-disable-next-line import/prefer-default-export
 export { displayBoard };

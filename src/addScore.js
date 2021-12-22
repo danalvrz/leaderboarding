@@ -22,4 +22,5 @@ const addScoreBox = () => {
   return addContainer;
 };
 
+// eslint-disable-next-line import/prefer-default-export
 export { addScoreBox };
