@@ -8,6 +8,7 @@ const displayBoard = () => {
   const refreshBttn = document.createElement('button');
   refreshBttn.innerText = 'Refresh';
   refreshBttn.id = 'refreshBttn';
+  refreshBttn.type = 'button';
   refreshBttn.classList.add('btn', 'btn-info');
   recentScoresContainer.style.display = 'flex';
   const scoreTable = document.createElement('table');
@@ -23,28 +24,7 @@ const displayBoard = () => {
     'border-secondary',
   );
   const tableBody = document.createElement('tbody');
-  tableBody.innerHTML = `
-    <tr>
-                <td>Name: 100</td>
-              </tr>
-              <tr>
-                <td>Name: 20</td>
-              </tr>
-              <tr>
-                <td>Name: 50</td>
-              </tr>
-              <tr>
-                <td>Name: 78</td>
-              </tr>
-              <tr>
-                <td>Name: 125</td>
-              </tr>
-              <tr>
-                <td>Name: 77</td>
-              </tr>
-              <tr>
-                <td>Name: 42</td>
-              </tr>`;
+  tableBody.id = 'tableBody';
   scoreTable.appendChild(tableBody);
   recentScoresContainer.appendChild(recentScoresTitle);
   recentScoresContainer.appendChild(refreshBttn);
