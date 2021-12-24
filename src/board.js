@@ -9,7 +9,6 @@ const displayBoard = () => {
   refreshBttn.innerText = 'Refresh';
   refreshBttn.id = 'refreshBttn';
   refreshBttn.type = 'button';
-  refreshBttn.classList.add('btn', 'btn-info');
   recentScoresContainer.style.display = 'flex';
   const scoreTable = document.createElement('table');
   scoreTable.classList.add(

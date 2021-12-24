@@ -18,7 +18,7 @@ const addScoreBox = () => {
   submitBttn.innerText = 'Submit';
   submitBttn.type = 'button';
   submitBttn.style.margin = '50px 10px 20px 100px';
-  submitBttn.classList.add('my-3', 'w-50', 'btn', 'btn-primary');
+  submitBttn.classList.add('my-3', 'w-50');
   form.appendChild(addName);
   form.appendChild(addScore);
   form.appendChild(submitBttn);
