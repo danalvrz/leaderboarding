@@ -1,5 +1,5 @@
 ## leaderboarding
-This is a laeaderboard app that can be used to keep track of your game nights. It was build using an API to store and acces the scores. Feel free to add yours.
+This is a laeaderboard app that can be used to keep track of your game nights. It was build using an API to store and access the scores. Feel free to add yours.
 
 ## Live Demo
 
