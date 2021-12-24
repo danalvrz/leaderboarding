@@ -1,3 +1,90 @@
 body {
-  background-color: azure;
+  background-color: grey;
+  background-image: url(./background.jpg);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-blend-mode: multiply;
+}
+
+h1 {
+  color: aliceblue;
+  font-weight: 900 !important;
+}
+
+h2 {
+  color: rgb(3, 52, 18);
+  font-weight: 700 !important;
+}
+
+#wrapper {
+  background-color: rgb(240, 248, 255, 0.7);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+button {
+  appearance: button;
+  background-color: #144609;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+button::after {
+  background-clip: padding-box;
+  background-color: #1f760c;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+button:hover {
+  filter: brightness(1.1);
+}
+
+#refreshBttn {
+  width: 150px;
+}
+
+tbody,
+tr,
+td {
+  background-color: aliceblue;
+  border: 5px solid rgba(12, 94, 22, 0.9) !important;
+  font-weight: 500;
+}
+
+input {
+  border-radius: 10px !important;
 }
